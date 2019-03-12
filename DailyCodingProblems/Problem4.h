@@ -12,7 +12,7 @@ struct TNode
 
 	T Data;
 private:
-	using PointerType = long; //may need to be change depending on size of a pointer
+	using PointerType = intptr_t; //may need to be change depending on size of a pointer
 	PointerType Both = 0; //xor of next and prev pointer
 };
 

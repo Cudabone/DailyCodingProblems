@@ -21,10 +21,17 @@ const std::vector<int> Solution( const std::vector<int>& input )
 	}
 
 	std::vector<int> rhs( input.size() );
-	rhs[input.size() - 1] = 1;
-	for ( int i = input.size() - 2; i >= 0; --i )
+	if ( rhs.size() > 0 )
+	{
+		rhs[rhs.size() - 1] = 1;
+	}
+	for ( std::size_t i = rhs.size() - 2; i >= 1; --i )
 	{
 		rhs[i] = rhs[i + 1] * input[i + 1];
+	}
+	if ( rhs.size() > 0 )
+	{
+		rhs[0] = rhs[1] * input[1];
 	}
 
 	for ( std::size_t i = 0; i < lhs.size(); ++i )

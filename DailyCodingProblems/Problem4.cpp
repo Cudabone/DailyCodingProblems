@@ -16,7 +16,6 @@
 
 void Problem4::RunTest()
 {
-	static_assert(sizeof( int ) == sizeof( TNode<int>* ), "Sizes differ");
 	TXLinkedList<int> list;
 	list.add( 1 );
 	list.add( 2 );

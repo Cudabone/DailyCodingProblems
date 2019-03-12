@@ -48,8 +48,8 @@ void Problem3::RunTest()
 	std::printf( "\n\nProblem3:\n" );
 	std::vector<int> test1 = { 3,4,-1,1 };
 	Util::PrintContainer( test1 );
-	std::printf( "%u\n", Solution( test1 ) );
+	std::printf( "%u\n", static_cast<unsigned int>( Solution( test1 ) ) );
 	test1 = { 3,2,1,0};
 	Util::PrintContainer( test1 );
-	std::printf( "%u\n", Solution( test1 ) );
+	std::printf( "%u\n", static_cast<unsigned int>( Solution( test1 ) ) );
 }
