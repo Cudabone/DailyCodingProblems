@@ -14,9 +14,6 @@
 #include <vector>
 #include <iostream>
 
-
-using uint = unsigned int;
-
 uint NumWaysRecurse( const uint NumStairs, uint Stair )
 {
 	if ( Stair >= NumStairs )

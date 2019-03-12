@@ -1,5 +1,7 @@
 #pragma once
 
+using uint = unsigned int;
+
 #define DECLARE_PROBLEM(num) \
 struct Problem##num \
 { \
@@ -14,3 +16,4 @@ DECLARE_PROBLEM( 5 );
 DECLARE_PROBLEM( 6 );
 DECLARE_PROBLEM( 7 );
 DECLARE_PROBLEM( 8 );
+DECLARE_PROBLEM( 9 );

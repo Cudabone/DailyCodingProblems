@@ -1,7 +1,6 @@
 // DailyCodingProblems.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "pch.h"
 #include <iostream>
 #include "Problems.h"
 
@@ -15,5 +14,6 @@ int main()
 	Problem6::RunTest();
 	//Problem7::RunTest(); this is a problem which waits 
 	Problem8::RunTest();
+	Problem9::RunTest();
 	system( "pause" );
 }
