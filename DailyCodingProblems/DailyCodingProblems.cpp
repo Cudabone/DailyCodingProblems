@@ -15,5 +15,9 @@ int main()
 	//Problem7::RunTest(); this is a problem which waits 
 	Problem8::RunTest();
 	Problem9::RunTest();
+	Problem10::RunTest();
+	Problem11::RunTest();
+	Problem12::RunTest();
+	Problem13::RunTest();
 	system( "pause" );
 }

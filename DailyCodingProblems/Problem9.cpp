@@ -82,5 +82,5 @@ void Problem9::RunTest()
 	std::printf( "\nProblem9:\n" );
 	uint k = 2;
 	std::string s = "abcba";
-	std::printf( "Max substring k = %u, s = %s, %zu", k, s.c_str(), NumUniqueCharacters( k, s ) );
+	std::printf( "Max substring k = %u, s = %s, %zu\n", k, s.c_str(), NumUniqueCharacters( k, s ) );
 }
