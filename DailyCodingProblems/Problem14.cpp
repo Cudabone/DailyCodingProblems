@@ -6,57 +6,11 @@
 
 #include <vector>
 #include <algorithm>
+#include <cassert>
 
 using Interval = std::pair<uint, uint>;
-using Intervals = std::vector<Interval>;
 
-//bool fits( const Interval& time, const Intervals& slotsAvailable )
-//{
-//	for ( const Interval& i : slotsAvailable )
-//	{
-//		if ( time.first >= i.first && time.second <= i.second )
-//		{
-//			return true;
-//		}
-//	}
-//	return false;
-//}
-
-size_t MinRooms( Intervals& times )
-{
-	std::vector<Intervals> rooms;
-	std::sort( times.begin(), times.end(), []( const Interval& lhs, const Interval& rhs ) { return lhs.first < rhs.first; } );
-	rooms.emplace_back();
-	for ( const Interval& time : times )
-	{
-		bool foundRoom = false;
-		for ( Intervals& room : rooms )
-		{
-			bool fits = true;
-			for ( const Interval& i : room )
-			{
-				if ( time.first >= i.first && time.first <= i.second
-					|| time.second >= i.first && time.second <= i.second )
-				{
-					fits = false;
-				}
-			}
-			if ( fits )
-			{
-				room.push_back( time );
-				foundRoom = true;
-				break;
-			}
-		}
-		if ( !foundRoom )
-		{
-			rooms.emplace_back( 1, time );
-		}
-	}
-	return rooms.size();
-}
-
-size_t MinRooms2( const Intervals& times )
+const size_t MinRooms( const std::vector<Interval>& times )
 {
 	std::vector<uint> arrivals;
 	std::vector<uint> departures;
@@ -72,11 +26,31 @@ size_t MinRooms2( const Intervals& times )
 	size_t i = 0;
 	size_t j = 0;
 	size_t maxRooms = 0;
-	size_t overlap = 0;
-	while ( true )
+	size_t roomsNeeded = 0;
+	while ( i < arrivals.size() )
 	{
-		if( arrivals[i] < departures[i] )
+		if ( arrivals[i] < departures[j] )
+		{
+			roomsNeeded++;
+			i++;
+			if ( roomsNeeded > maxRooms )
+			{
+				maxRooms = roomsNeeded;
+			}
+		}
+		else
+		{
+			roomsNeeded--;
+			j++;
+		}
 	}
+
+	// We can assume that at the end of the while loop, no more arrivals will be happening because
+	// starting time < ending times and they are processed in order of time.
+	// Also we no longer need to process departures since the number of rooms needed will only be decreasing
+
+	assert( i == arrivals.size() );
+	return maxRooms;
 }
 
 void Problem14::RunTest()
