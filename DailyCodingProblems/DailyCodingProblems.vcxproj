@@ -127,6 +127,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,6 +167,7 @@
     <ClCompile Include="Problem11.cpp" />
     <ClCompile Include="Problem12.cpp" />
     <ClCompile Include="Problem13.cpp" />
+    <ClCompile Include="Problem14.cpp" />
     <ClCompile Include="Problem2.cpp" />
     <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="Problem4.cpp" />

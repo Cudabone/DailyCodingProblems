@@ -68,5 +68,8 @@
     <ClCompile Include="Problem13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Problem14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
