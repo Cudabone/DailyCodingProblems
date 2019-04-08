@@ -24,5 +24,6 @@ int main()
 	Problem16::RunTest();
 	Problem17::RunTest();
 	Problem18::RunTest();
+	Problem19::RunTest();
 	system( "pause" );
 }
