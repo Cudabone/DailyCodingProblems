@@ -90,6 +90,27 @@
     <ClInclude Include="Problem23.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Problem24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem26.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem27.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem28.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem29.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DailyCodingProblems.cpp">
@@ -162,6 +183,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Problem23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem26.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem27.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem28.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem30.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

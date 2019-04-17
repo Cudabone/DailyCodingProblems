@@ -26,6 +26,14 @@
 #include "Problem22.h"
 #include "Problem23.h"
 
+#include "Problem24.h"
+#include "Problem25.h"
+#include "Problem26.h"
+#include "Problem27.h"
+#include "Problem28.h"
+#include "Problem29.h"
+#include "Problem30.h"
+
 int main()
 {
 	Problem1::RunTest();
@@ -51,5 +59,12 @@ int main()
 	Problem21::RunTest();
 	Problem22::RunTest();
 	Problem23::RunTest();
+	Problem24::RunTest();
+	Problem25::RunTest();
+	Problem26::RunTest();
+	Problem27::RunTest();
+	Problem28::RunTest();
+	Problem29::RunTest();
+	Problem30::RunTest();
 	system( "pause" );
 }

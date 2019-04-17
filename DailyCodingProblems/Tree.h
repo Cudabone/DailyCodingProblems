@@ -95,7 +95,6 @@ private:
 
 public:
 	T Data;
-private:
 	Tree<T>* Left = nullptr;
 	Tree<T>* Right = nullptr;
 };
