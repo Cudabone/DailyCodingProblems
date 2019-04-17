@@ -9,7 +9,6 @@
 //you can assume you have access to get_pointer and dereference_pointer functions
 //that converts between nodes and memory addresses.
 
-#include "Problems.h"
 #include "Problem4.h"
 #include <iostream>
 #include <cassert>

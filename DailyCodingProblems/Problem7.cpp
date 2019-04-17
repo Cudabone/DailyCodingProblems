@@ -1,6 +1,6 @@
 #include <thread>
 #include <chrono>
-#include "Problems.h"
+#include "Problem7.h"
 
 template<typename ReturnType, typename... Args>
 void InvokeFunction( int milliseconds, std::function<ReturnType(Args...)> func, Args&&... args )

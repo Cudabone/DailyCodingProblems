@@ -7,7 +7,7 @@
 #include <array>
 #include <vector>
 #include <string>
-#include "Problems.h"
+#include "Problem5.h"
 #include "Util.h"
 
 int Permutations( const std::vector<int>::const_iterator begin, const std::vector<int>::const_iterator end )

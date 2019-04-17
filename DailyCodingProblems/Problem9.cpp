@@ -3,7 +3,7 @@
 //
 //For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-#include "Problems.h"
+#include "Problem9.h"
 #include <unordered_set>
 #include <unordered_map>
 

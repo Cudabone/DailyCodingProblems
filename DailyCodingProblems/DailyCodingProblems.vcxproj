@@ -156,8 +156,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Problem10.h" />
+    <ClInclude Include="Problem11.h" />
+    <ClInclude Include="Problem12.h" />
+    <ClInclude Include="Problem13.h" />
+    <ClInclude Include="Problem14.h" />
+    <ClInclude Include="Problem15.h" />
+    <ClInclude Include="Problem16.h" />
+    <ClInclude Include="Problem17.h" />
+    <ClInclude Include="Problem18.h" />
+    <ClInclude Include="Problem19.h" />
+    <ClInclude Include="Problem20.h" />
+    <ClInclude Include="Problem21.h" />
+    <ClInclude Include="Problem22.h" />
+    <ClInclude Include="Problem23.h" />
+    <ClInclude Include="Problem8.h" />
+    <ClInclude Include="Problem1.h" />
+    <ClInclude Include="Problem2.h" />
+    <ClInclude Include="Problem3.h" />
     <ClInclude Include="Problem4.h" />
-    <ClInclude Include="Problems.h" />
+    <ClInclude Include="Problem5.h" />
+    <ClInclude Include="Problem6.h" />
+    <ClInclude Include="Problem7.h" />
+    <ClInclude Include="Problem9.h" />
     <ClInclude Include="Tree.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
@@ -175,6 +196,10 @@
     <ClCompile Include="Problem18.cpp" />
     <ClCompile Include="Problem19.cpp" />
     <ClCompile Include="Problem2.cpp" />
+    <ClCompile Include="Problem20.cpp" />
+    <ClCompile Include="Problem21.cpp" />
+    <ClCompile Include="Problem22.cpp" />
+    <ClCompile Include="Problem23.cpp" />
     <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="Problem4.cpp" />
     <ClCompile Include="Problem5.cpp" />

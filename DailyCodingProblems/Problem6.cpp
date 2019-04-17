@@ -1,4 +1,4 @@
-#include "Problems.h"
+#include "Problem6.h"
 #include <vector>
 #include <algorithm>
 

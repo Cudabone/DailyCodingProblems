@@ -2,7 +2,29 @@
 //
 
 #include <iostream>
-#include "Problems.h"
+#include "Problem1.h"
+#include "Problem2.h"
+#include "Problem3.h"
+#include "Problem4.h"
+#include "Problem5.h"
+#include "Problem6.h"
+#include "Problem7.h"
+#include "Problem8.h"
+#include "Problem9.h"
+#include "Problem10.h"
+#include "Problem11.h"
+#include "Problem12.h"
+#include "Problem13.h"
+#include "Problem14.h"
+#include "Problem15.h"
+#include "Problem16.h"
+#include "Problem17.h"
+#include "Problem18.h"
+#include "Problem19.h"
+#include "Problem20.h"
+#include "Problem21.h"
+#include "Problem22.h"
+#include "Problem23.h"
 
 int main()
 {
@@ -25,5 +47,9 @@ int main()
 	Problem17::RunTest();
 	Problem18::RunTest();
 	Problem19::RunTest();
+	//Problem20::RunTest();
+	Problem21::RunTest();
+	Problem22::RunTest();
+	Problem23::RunTest();
 	system( "pause" );
 }

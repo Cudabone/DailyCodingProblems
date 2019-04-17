@@ -11,7 +11,7 @@
 //
 //For example, given the array['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-#include "Problems.h"
+#include "Problem17.h"
 #include <string>
 
 void RGBSort( std::string& input )

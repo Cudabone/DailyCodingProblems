@@ -1,5 +1,7 @@
 #pragma once
 #include <cassert>
+#include "Util.h"
+DECLARE_PROBLEM( 4 );
 
 template<typename T>
 struct TNode
