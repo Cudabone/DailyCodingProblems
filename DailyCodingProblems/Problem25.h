@@ -1,11 +1,8 @@
 #pragma once
 #include "Util.h"
 #include <vector>
-
-namespace Problem25
-{
-	void RunTest();
-}
+#include <iterator>
+DECLARE_PROBLEM( 25 );
 
 template<typename Iterator>
 size_t MergeInversions( const Iterator Begin, const Iterator Middle, const Iterator End )
@@ -58,7 +55,7 @@ size_t MergeInversions( const Iterator Begin, const Iterator Middle, const Itera
 template<typename Iterator>
 size_t MergeSortInversions( const Iterator begin, const Iterator end )
 {
-	const int size = std::distance( begin, end );
+	typename std::iterator_traits<Iterator>::difference_type size = std::distance( begin, end );
 	if ( size <= 1 )
 	{
 		return 0;

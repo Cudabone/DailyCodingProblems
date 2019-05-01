@@ -2,10 +2,8 @@
 #include "Util.h"
 #include <vector>
 #include <cassert>
-namespace Problem24
-{
-	void RunTest();
-}
+
+DECLARE_PROBLEM( 24 );
 
 //Implement a stack that has the following methods :
 //

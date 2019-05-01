@@ -3,6 +3,14 @@
 #include <vector>
 #include <iterator>
 
+using uint = unsigned int;
+
+#define DECLARE_PROBLEM(num) \
+namespace Problem##num \
+{ \
+	void RunTest(); \
+}
+
 namespace Util
 {
 	template<typename Container>

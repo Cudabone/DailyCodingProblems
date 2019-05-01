@@ -170,6 +170,10 @@
     <ClInclude Include="Problem21.h" />
     <ClInclude Include="Problem22.h" />
     <ClInclude Include="Problem23.h" />
+    <ClInclude Include="Problem31.h" />
+    <ClInclude Include="Problem32.h" />
+    <ClInclude Include="Problem33.h" />
+    <ClInclude Include="Problem34.h" />
     <ClInclude Include="Problem8.h" />
     <ClInclude Include="Problem1.h" />
     <ClInclude Include="Problem2.h" />
@@ -215,6 +219,10 @@
     <ClCompile Include="Problem23.cpp" />
     <ClCompile Include="Problem3.cpp" />
     <ClCompile Include="Problem30.cpp" />
+    <ClCompile Include="Problem31.cpp" />
+    <ClCompile Include="Problem32.cpp" />
+    <ClCompile Include="Problem33.cpp" />
+    <ClCompile Include="Problem34.cpp" />
     <ClCompile Include="Problem4.cpp" />
     <ClCompile Include="Problem5.cpp" />
     <ClCompile Include="Problem6.cpp" />
